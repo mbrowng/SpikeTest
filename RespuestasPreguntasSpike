@@ -1,0 +1,24 @@
+1.- Para un prototipo funcional se debería requerir de varias piezas de software con microservicios. 
+Estos serían Customer App, Driver App, Restaurant App y un Admin Pannel. También se deberán utilizar API como las de Google, 
+para las analytics (Google, Firebase), mapa y locación (Google); APIs de pago como transbanck y/o paypal. También API de 
+logueo y registro, Google, IG y/o FB. Y finalmente de Storage como AWS, Azure o Google.
+2.- Microservicios, ya que la gran ventaja es que se pueden integrar apps de terceros sin grandes complicaciones y estos se podrían desplegar
+independientemente según la necesidad. Tomaría esta desición porque considero que los microservicios dan más libertad a la
+hora de desplegar actualización a ciertas piezas sin la necesidad de impactar en todo el sistema para estos cambios.
+3.- Utilizaría Scrum con adaptación a la cultura de la empresa, es decir, vería la posibilidad de adaptar ciertas caracteristicas
+de Scrum a la cultura, ej: las reuniones períodicas, las retrospectivas, creación de historias de usuarios, etc. Además de sprints
+de no más de 2 semanas, en lo posible. Además, de poder realizar releases períodicos sin importar si se realizan al terminar un sprint.
+4.- Usaria el flujo Administrador-Integración, que funciona de la siguiente manera:
+ - El administrador del proyecto hace un push al repositorio público.
+ - El contribuidor clona ese repositorio y realiza los cambios.
+ - El contribuidor realiza un push con su copia pública del proyecto.
+ - El contribuidor envía un correo electrónico al administrador pidiendo que haga pull de los cambios.
+ - El administrador agrega el repositorio del contribuidor como remoto y fusiona ambos localmente.
+ - El administrador realiza un push con la fusión del código al repositorio principal.
+5.- Para un prototipo creo que la necesidad de un ingeniero extra no es necesario, sin embargo, ante el posible apremio de una entrega
+funcional, otro ingeniero que ayude a acelerar el desarrollo, especialmente de las piezas no-frontend podría ser útil, además
+se podría aprovechar el uso de arquitectura microservicios y tener ingeniero con diverso conocimiento (otros lenguajes).
+También el considerar hacer participe como apoyo a un Ingeniero QA para verificar que todas las piezas cumplan
+el estandar impuesto antes de comenzar el desarrollo del prototipo.
+6.- Consideraría la implementación de un plan de despliegue periodico con la participación en las pruebas de miembros externos al equipo 
+para considerar y revisar situaciones que se podrían escapar al equipo de desarrollo.
