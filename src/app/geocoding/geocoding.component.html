@@ -1,0 +1,15 @@
+<div class="address-lookup">
+  <input type="text" placeholder="Search 1..."
+         (keyup.enter)="addressLookup($event.target.value)" (click)="$event.stopPropagation()" [(ngModel)]="address1"/>
+
+  <input type="text" placeholder="Search 2..."
+         (keyup.enter)="addressLookupSecond($event.target.value)" (click)="$event.stopPropagation()" [(ngModel)]="address2"/>
+</div>
+
+<div class="address-lookup">
+  <button name="distanceMeasurer" (click)="calculate()">Calcular Distancia</button>
+</div>
+
+<div class="address-lookup">
+  Distancia en Kilometros: {{totalDistance}} 
+</div>

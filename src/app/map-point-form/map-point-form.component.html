@@ -1,0 +1,12 @@
+<div id="map-point-form">
+  <div >
+    <button name="getHistory" (click)="getData()">Historial de Búsqueda</button>
+  </div>
+  <div> 
+    <ul>
+      <li *ngFor="let result of myResults[0]">
+        {{ result.time | date:'dd/MM/yyyy' }} - {{ result.dest1 }} - {{ result.dest1 }} - {{ result.dist }}
+      </li>
+    </ul>
+  </div>
+</div>
