@@ -1,6 +1,6 @@
-# Angular + Leaflet + Nominatim
+# Angular + Nominatim + Firebase
 
-This project contains simple `Angular 10` app with `Leaflet` map library integration along with `Nominatim API` geocoding.
+This project contains simple `Angular 10` app with `Nominatim API` geocoding integration, plus Graphhopper. Also the project uses Firebase to save all distances between two addresses.
 
 ## Run
 
@@ -11,8 +11,3 @@ Navigate to `http://localhost:4200/`.
 ## Build
 
 Run `ng build` to build the project.
-
-
-## More information
-
-+ Blog post: [Angular 10 with Leaflet map - geocoding using Nominatim API](https://blog.mestwin.net/angular-8-with-leaflet-map-geocoding-using-nominatim-api)
