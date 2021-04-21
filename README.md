@@ -15,3 +15,7 @@ Run `ng build` to build the project.
 ## Spike QUESTIONS
 
 Look into RespuestasPreguntasSpike added to this repository.
+
+I used a project called Angular-Leaflet as example to build this one. I tried to keep it simple.
+
+Cheers.
